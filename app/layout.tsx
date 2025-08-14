@@ -72,6 +72,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} antialiased`}>
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5PW3M7Z46"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-K5PW3M7Z46');
+            `,
+          }}
+        />
+      </head>
       <body className="font-sans bg-white text-gray-900 min-h-screen flex flex-col">
         <Navigation />
         <main className="flex-1">{children}</main>
