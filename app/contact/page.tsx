@@ -122,24 +122,24 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-xl font-serif font-medium text-black mb-4">Sales & Demos</h3>
                   <p className="text-gray-600 mb-2">Ready to see BroadPress in action?</p>
-                  <a href="mailto:sales@broadpress.com" className="text-black hover:text-gray-600 transition-colors">
-                    sales@broadpress.com
+                  <a href="mailto:sales@broadpress.org" className="text-black hover:text-gray-600 transition-colors">
+                    sales@broadpress.org
                   </a>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-serif font-medium text-black mb-4">Technical Support</h3>
                   <p className="text-gray-600 mb-2">Need help with your BroadPress account?</p>
-                  <a href="mailto:support@broadpress.com" className="text-black hover:text-gray-600 transition-colors">
-                    support@broadpress.com
+                  <a href="mailto:support@broadpress.org" className="text-black hover:text-gray-600 transition-colors">
+                    support@broadpress.org
                   </a>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-serif font-medium text-black mb-4">Partnerships</h3>
                   <p className="text-gray-600 mb-2">Interested in partnering with us?</p>
-                  <a href="mailto:partners@broadpress.com" className="text-black hover:text-gray-600 transition-colors">
-                    partners@broadpress.com
+                  <a href="mailto:partners@broadpress.org" className="text-black hover:text-gray-600 transition-colors">
+                    partners@broadpress.org
                   </a>
                 </div>
 
