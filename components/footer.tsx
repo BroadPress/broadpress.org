@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -6,7 +7,16 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="font-serif text-xl font-bold text-black mb-4">BroadPress</h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <Image
+                src="https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png"
+                alt="BroadPress Logo"
+                width={24}
+                height={24}
+                className="w-6 h-6"
+              />
+              <h3 className="font-serif text-xl font-bold text-black">BroadPress</h3>
+            </div>
             <p className="text-gray-600 text-sm leading-relaxed max-w-md">
               The WordPress alternative for multi-network news publishing. Revolutionizing how newsrooms publish and
               distribute content.

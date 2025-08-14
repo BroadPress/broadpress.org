@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import Image from "next/image"
 
 const navItems = [
   { href: "/", label: "Home" },
@@ -20,8 +21,15 @@ export function Navigation() {
     <nav className="border-b border-gray-200">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="font-serif text-2xl font-bold text-black">
-            BroadPress
+          <Link href="/" className="flex items-center space-x-3">
+            <Image
+              src="https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png"
+              alt="BroadPress Logo"
+              width={32}
+              height={32}
+              className="w-8 h-8"
+            />
+            <span className="font-serif text-2xl font-bold text-black">BroadPress</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
