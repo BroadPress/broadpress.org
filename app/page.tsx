@@ -57,7 +57,7 @@ export default function HomePage() {
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-sm text-gray-500 uppercase tracking-wider mb-8">Trusted By</p>
-          <div className="text-2xl font-serif font-small text-gray-800">Over thousands of news networks worldwide, with millions of views each month. Powered by the latest technologies such as Vercel, Next.js, MongoDB, and Clerk for authentication; secured by Cloudflare; hosted on GitHub; designed in Figma; storage managed on Cloudinary; prototypes created in Justinmind; and, of course, originally sketched on plenty of Double A paper.    </div>
+          <div className="text-2xl font-serif font-small text-gray-600">Over thousands of news networks worldwide, with millions of views each month. Powered by the latest technologies such as Vercel, Next.js, MongoDB, and Clerk for authentication; secured by Cloudflare; hosted on GitHub; designed in Figma; storage managed on Cloudinary; prototypes created in Justinmind; and, of course, originally sketched on plenty of Double A paper.    </div>
         </div>
       </section>
 
