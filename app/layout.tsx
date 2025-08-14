@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from "next/font/google"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import "./globals.css"
+import Script from "next/script"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -72,20 +73,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} antialiased`}>
-      <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5PW3M7Z46"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-K5PW3M7Z46');
-            `,
-          }}
-        />
-      </head>
       <body className="font-sans bg-white text-gray-900 min-h-screen flex flex-col">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-K5PW3M7Z46" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-K5PW3M7Z46');
+          `}
+        </Script>
+
         <Navigation />
         <main className="flex-1">{children}</main>
         <Footer />
