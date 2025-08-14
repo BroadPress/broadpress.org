@@ -25,7 +25,7 @@ export default function PricingPage() {
               <h3 className="text-2xl font-serif font-medium text-black mb-4">Starter</h3>
               <p className="text-gray-600 mb-6">Perfect for small newsrooms and independent journalists</p>
               <div className="mb-8">
-                <span className="text-4xl font-serif font-light text-black">$99</span>
+                <span className="text-4xl font-serif font-light text-black">$49</span>
                 <span className="text-gray-600">/month</span>
               </div>
               <ul className="space-y-3 text-gray-600 mb-8">
@@ -49,6 +49,10 @@ export default function PricingPage() {
                   <span className="text-black mr-3">✓</span>
                   Standard security features
                 </li>
+                <li className="flex items-start">
+                  <span className="text-black mr-3">✓</span>
+                  API access
+                </li>
               </ul>
               <Link
                 href="/contact"
@@ -66,7 +70,7 @@ export default function PricingPage() {
               <h3 className="text-2xl font-serif font-medium text-black mb-4">Professional</h3>
               <p className="text-gray-600 mb-6">Ideal for growing newsrooms and regional media companies</p>
               <div className="mb-8">
-                <span className="text-4xl font-serif font-light text-black">$299</span>
+                <span className="text-4xl font-serif font-light text-black">$99</span>
                 <span className="text-gray-600">/month</span>
               </div>
               <ul className="space-y-3 text-gray-600 mb-8">
@@ -176,38 +180,98 @@ export default function PricingPage() {
               </thead>
               <tbody className="text-gray-600">
                 <tr className="border-b border-gray-200">
-                  <td className="py-4 px-6 font-medium">Connected Networks</td>
+                  <td className="py-4 px-6 font-medium flex items-center">
+                    <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"
+                      />
+                    </svg>
+                    Connected Networks
+                  </td>
                   <td className="py-4 px-6 text-center">Up to 3</td>
                   <td className="py-4 px-6 text-center">Up to 10</td>
                   <td className="py-4 px-6 text-center">Unlimited</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
-                  <td className="py-4 px-6 font-medium">Multi-Network Publishing</td>
+                  <td className="py-4 px-6 font-medium flex items-center">
+                    <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"
+                      />
+                    </svg>
+                    Multi-Network Publishing
+                  </td>
                   <td className="py-4 px-6 text-center">✓</td>
                   <td className="py-4 px-6 text-center">✓</td>
                   <td className="py-4 px-6 text-center">✓</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-4 px-6 font-medium">Real-Time Analytics</td>
+                  <td className="py-4 px-6 font-medium flex items-center">
+                    <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                      />
+                    </svg>
+                    Real-Time Analytics
+                  </td>
                   <td className="py-4 px-6 text-center">Basic</td>
                   <td className="py-4 px-6 text-center">Advanced</td>
                   <td className="py-4 px-6 text-center">Custom</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
-                  <td className="py-4 px-6 font-medium">Editorial Workflows</td>
+                  <td className="py-4 px-6 font-medium flex items-center">
+                    <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                      />
+                    </svg>
+                    Editorial Workflows
+                  </td>
                   <td className="py-4 px-6 text-center">Standard</td>
                   <td className="py-4 px-6 text-center">Custom</td>
                   <td className="py-4 px-6 text-center">Fully Custom</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="py-4 px-6 font-medium">Support</td>
+                  <td className="py-4 px-6 font-medium flex items-center">
+                    <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a9.75 9.75 0 109.75 9.75A9.75 9.75 0 0012 2.25zM8.25 12a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0z"
+                      />
+                    </svg>
+                    Support
+                  </td>
                   <td className="py-4 px-6 text-center">Email</td>
                   <td className="py-4 px-6 text-center">24/7 Priority</td>
                   <td className="py-4 px-6 text-center">Dedicated Manager</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-white">
-                  <td className="py-4 px-6 font-medium">API Access</td>
-                  <td className="py-4 px-6 text-center">—</td>
+                  <td className="py-4 px-6 font-medium flex items-center">
+                    <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                      />
+                    </svg>
+                    API Access
+                  </td>
+                  <td className="py-4 px-6 text-center">✓</td>
                   <td className="py-4 px-6 text-center">✓</td>
                   <td className="py-4 px-6 text-center">✓</td>
                 </tr>
