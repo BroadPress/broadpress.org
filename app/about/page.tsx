@@ -106,9 +106,9 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-serif font-medium text-black">Proven Results</h3>
               </div>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Today, BIRATINFO and other forward-thinking news organizations use BroadPress to reach wider audiences
-                while reducing their publishing time by 75%. Our platform handles millions of page views and ensures
-                that important stories reach readers faster than ever before.
+                Today, Jasper Times Daily and other forward-thinking news organizations use BroadPress to reach wider
+                audiences while reducing their publishing time by 75%. Our platform handles millions of page views and
+                ensures that important stories reach readers faster than ever before.
               </p>
             </div>
           </div>

@@ -3,8 +3,10 @@ import type { Metadata } from "next"
 import { Inter, Playfair_Display } from "next/font/google"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import Script from "next/script"
+import { Suspense } from "react"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -73,20 +75,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable} antialiased`}>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-K5PW3M7Z46" strategy="beforeInteractive" async />
-      <Script id="google-analytics" strategy="beforeInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-K5PW3M7Z46');
-        `}
-      </Script>
-
       <body className="font-sans bg-white text-gray-900 min-h-screen flex flex-col">
-        <Navigation />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-K5PW3M7Z46" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-K5PW3M7Z46');
+          `}
+        </Script>
+
+        <Suspense fallback={<div>Loading...</div>}>
+          <Navigation />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </Suspense>
+        <Analytics />
       </body>
     </html>
   )

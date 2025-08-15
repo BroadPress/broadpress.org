@@ -282,7 +282,7 @@ export default function HowItWorksPage() {
             </div>
           </div>
           <p className="text-lg text-gray-600 mb-8">
-            BIRATINFO reduced their publishing time from hours to minutes while reaching 3x more readers.
+            Jasper Times Daily reduced their publishing time from hours to minutes while reaching 3x more readers.
           </p>
         </div>
       </section>

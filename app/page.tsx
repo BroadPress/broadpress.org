@@ -57,7 +57,7 @@ export default function HomePage() {
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-sm text-gray-500 uppercase tracking-wider mb-8">Trusted By</p>
-          <div className="text-2xl font-serif font-small text-gray-600">Over thousands of news networks worldwide, with millions of views each month. Powered by the latest technologies such as Vercel, Next.js, MongoDB, and Clerk for authentication; secured by Cloudflare; hosted on GitHub; designed in Figma; storage managed on Cloudinary; prototypes created in Justinmind; and, of course, originally sketched on plenty of Double A paper.    </div>
+          <div className="text-2xl font-serif font-medium text-gray-800">Jasper Times Daily</div>
         </div>
       </section>
 
@@ -182,7 +182,7 @@ export default function HomePage() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={1}
-                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 01-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
                     />
                   </svg>
                   <h3 className="text-3xl font-serif font-medium text-black">Smart Publishing</h3>
@@ -374,7 +374,7 @@ export default function HomePage() {
             Ready to Transform Your Newsroom?
           </h2>
           <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-            Join BIRATINFO and discover how BroadPress can streamline your publishing workflow.
+            Join Jasper Times Daily and discover how BroadPress can streamline your publishing workflow.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
