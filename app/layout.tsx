@@ -21,15 +21,15 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "BroadPress - WordPress Alternative for Multi-Network News Publishing",
+  title: "BroadPress - WordPress Alternative Corporate CMS",
   description:
-    "Revolutionizing how newsrooms publish and distribute content across multiple platforms from one central hub.",
+    "Powerful WordPress alternative built for Corporate Grade CMS on Cloud.",
   generator: "v0.app",
   metadataBase: new URL("https://broadpress.org"),
   openGraph: {
-    title: "BroadPress - WordPress Alternative for Multi-Network News Publishing",
+    title: "BroadPress - WordPress Alternative Corporate CMS",
     description:
-      "Revolutionizing how newsrooms publish and distribute content across multiple platforms from one central hub.",
+      "Powerful WordPress alternative built for Corporate Grade CMS on Cloud.",
     url: "https://broadpress.org",
     siteName: "BroadPress",
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         url: "https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png",
         width: 1200,
         height: 630,
-        alt: "BroadPress - Multi-Network News Publishing Platform",
+        alt: "BroadPress - WordPress Alternative Corporate CMS",
       },
     ],
     locale: "en_US",
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BroadPress - WordPress Alternative for Multi-Network News Publishing",
+    title: "BroadPress - BroadPress - WordPress Alternative Corporate CMS",
     description:
-      "Revolutionizing how newsrooms publish and distribute content across multiple platforms from one central hub.",
+      "BroadPress is a powerful WordPress alternative corporate CMS built for modern enterprises",
     images: ["https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png"],
   },
   robots: {

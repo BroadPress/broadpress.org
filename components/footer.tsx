@@ -18,8 +18,7 @@ export function Footer() {
               <h3 className="font-serif text-xl font-bold text-black">BroadPress</h3>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed max-w-md">
-              The WordPress alternative for multi-network news publishing. Revolutionizing how newsrooms publish and
-              distribute content.
+              BroadPress is a powerful WordPress alternative corporate CMS built for modern enterprises seeking lightning fast website speed, flexibility, and scalability. 
             </p>
           </div>
 
@@ -67,7 +66,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-200 mt-8 pt-8 text-center">
-          <p className="text-gray-500 text-sm">© 2024 BroadPress. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© 2025 BroadPress. All rights reserved.</p>
         </div>
       </div>
     </footer>

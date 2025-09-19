@@ -31,10 +31,11 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-serif font-light text-black mb-8 leading-tight">
-            The WordPress Alternative for Multi-Network News Publishing
+            WordPress alternative Corporate CMS.
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-12 leading-relaxed">
-            Revolutionizing how newsrooms publish and distribute content across multiple platforms from one central hub.
+            Leverages cutting-edge technologies such as MongoDB, Express, React, Node.js and Cloudinary to deliver a seamless digital experience.
+
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -54,18 +55,31 @@ export default function HomePage() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-16 px-6 bg-gray-50">
-        <div className="max-w-6xl mx-auto text-center">
-          <p className="text-sm text-gray-500 uppercase tracking-wider mb-8">Trusted By</p>
-          <div className="text-2xl font-serif font-medium text-gray-800">Jasper Times Daily</div>
-        </div>
-      </section>
+<section className="py-16 px-6 bg-gray-50">
+  <div className="max-w-6xl mx-auto text-center">
+    
+    {/* Main Title */}
+    <h2 className="text-3xl font-serif font-medium text-gray-800 mb-4">
+      Cutting Edge Tech Stack
+    </h2>
+    
+    {/* Introduction Text */}
+    <p className="text-lg text-gray-700 mb-8">
+      Designed as a corporate-grade CMS, it leverages cutting-edge technologies such as MongoDB, Express, React, Node.js and Cloudinary to deliver a seamless digital experience.
+    </p>
+
+    
+    
+    
+  </div>
+</section>
+
 
       {/* Key Benefits */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-serif font-light text-black mb-16 text-center">
-            Why BroadPress Outperforms Traditional CMS Platforms
+            Beyond Traditional CMS
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -80,9 +94,9 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-serif font-medium text-black mb-4">One Article, Many Platforms</h3>
+              <h3 className="text-xl font-serif font-medium text-black mb-4">Pre-Structured Architecture</h3>
               <p className="text-gray-600 leading-relaxed">
-                Publish a single news story across all your connected networks instantly.
+                Get started instantly with a built-in website structure that eliminates complex setup.
               </p>
             </div>
 
@@ -97,9 +111,9 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-serif font-medium text-black mb-4">Centralized Management</h3>
+              <h3 className="text-xl font-serif font-medium text-black mb-4">Simple Setup & Publishing</h3>
               <p className="text-gray-600 leading-relaxed">
-                Edit, update, and manage all platforms from one unified dashboard.
+                Log in, create, and publish pages within minutes—no heavy configurations required.
               </p>
             </div>
 
@@ -114,9 +128,9 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-serif font-medium text-black mb-4">Optimized for Newsrooms</h3>
+              <h3 className="text-xl font-serif font-medium text-black mb-4">Clean & Component-Based Code</h3>
               <p className="text-gray-600 leading-relaxed">
-                Interfaces and workflows designed with editorial teams in mind.
+                Maintain plain, readable, and reusable code with a flexible layout manager.
               </p>
             </div>
 
@@ -131,8 +145,9 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-serif font-medium text-black mb-4">Real-Time Sync</h3>
-              <p className="text-gray-600 leading-relaxed">Instant content updates across every platform.</p>
+              <h3 className="text-xl font-serif font-medium text-black mb-4">Industry-Ready Options</h3>
+              <p className="text-gray-600 leading-relaxed">Access a wide range of pre-designed page suggestions across different industries.
+</p>
             </div>
 
             <div className="text-center">
@@ -146,8 +161,8 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-serif font-medium text-black mb-4">Scalable Infrastructure</h3>
-              <p className="text-gray-600 leading-relaxed">Handles rapid growth without performance drops.</p>
+              <h3 className="text-xl font-serif font-medium text-black mb-4">Dynamic & Flexible Content</h3>
+              <p className="text-gray-600 leading-relaxed">Enable or disable pages on demand, with all content managed dynamically.</p>
             </div>
 
             <div className="text-center">
@@ -161,8 +176,9 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-serif font-medium text-black mb-4">Enterprise Security</h3>
-              <p className="text-gray-600 leading-relaxed">Military-grade encryption and biometric authentication.</p>
+              <h3 className="text-xl font-serif font-medium text-black mb-4">Lightning-Fast Performance</h3>
+              <p className="text-gray-600 leading-relaxed">Powered by global server regions, CDN, and optimized frameworks for seamless speed.
+</p>
             </div>
           </div>
         </div>
@@ -188,8 +204,7 @@ export default function HomePage() {
                   <h3 className="text-3xl font-serif font-medium text-black">Smart Publishing</h3>
                 </div>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Remove the guesswork from news management. BroadPress learns and adapts to your newsroom's pace,
-                  keeping your content pipeline efficient and timely.
+                  Streamline your website management and content publishing with BroadPress. Our platform adapts to your team’s workflow, keeping your content pipeline efficient and timely.
                 </p>
                 <ul className="space-y-4 text-gray-600">
                   <li className="flex items-center">
@@ -206,7 +221,7 @@ export default function HomePage() {
                         d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
                       />
                     </svg>
-                    Rich text editor with newsroom-specific tools
+                    Rich text editor with enterprise-grade editing tools
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -222,7 +237,7 @@ export default function HomePage() {
                         d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
                       />
                     </svg>
-                    Automatic categorization and tagging
+                    Automatic categorization and page suggestions
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -238,7 +253,7 @@ export default function HomePage() {
                         d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20a3 3 0 01-3-3v-2a3 3 0 013-3h3a3 3 0 013 3v2a3 3 0 01-3 3H7z"
                       />
                     </svg>
-                    Collaborative editing with your team
+                    Collaborative editing across teams
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -254,7 +269,7 @@ export default function HomePage() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    Built-in fact-checking and source management
+                    Built-in content validation and asset management
                   </li>
                 </ul>
               </div>
@@ -286,8 +301,7 @@ export default function HomePage() {
                   <h3 className="text-3xl font-serif font-medium text-black">Seamless Content Distribution</h3>
                 </div>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Publishing to multiple platforms has never been easier. BroadPress ensures your news reaches audiences
-                  everywhere, without requiring technical expertise.
+                  Publishing across your website and multiple sections has never been easier. BroadPress ensures your content reaches the right pages efficiently, without requiring technical expertise.
                 </p>
                 <ul className="space-y-4 text-gray-600">
                   <li className="flex items-center">
@@ -304,7 +318,7 @@ export default function HomePage() {
                         d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
                       />
                     </svg>
-                    Visual network selection interface
+                    Visual page and layout selection interface
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -320,7 +334,7 @@ export default function HomePage() {
                         d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"
                       />
                     </svg>
-                    Platform-specific content optimization
+                    Page-specific content customization and optimization
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -336,7 +350,7 @@ export default function HomePage() {
                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    Scheduling and timing controls
+                    Select and publish desired pages.
                   </li>
                   <li className="flex items-center">
                     <svg
@@ -358,7 +372,7 @@ export default function HomePage() {
                         d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                       />
                     </svg>
-                    Preview before publishing
+                    Scheduling and timing controls for updates
                   </li>
                 </ul>
               </div>
@@ -371,10 +385,10 @@ export default function HomePage() {
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-serif font-light text-black mb-8">
-            Ready to Transform Your Newsroom?
+            Migrate from WordPress Today
           </h2>
           <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-            Join Jasper Times Daily and discover how BroadPress can streamline your publishing workflow.
+            Discover how BroadPress can streamline your website management and content workflow. Schedule your free consultation today and make the switch effortlessly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

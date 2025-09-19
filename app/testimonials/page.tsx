@@ -7,10 +7,10 @@ export default function TestimonialsPage() {
       <section className="py-20 md:py-32 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-serif font-light text-black mb-8 leading-tight">
-            What Newsrooms Say
+            What Corporates Say
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            See how news organizations around the world are transforming their publishing workflows with BroadPress.
+            See how companies across industries are transforming their website management and content workflows with BroadPress.
           </p>
         </div>
       </section>
@@ -19,8 +19,7 @@ export default function TestimonialsPage() {
       <section className="py-20 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <blockquote className="text-3xl md:text-4xl font-serif font-light text-black mb-8 leading-relaxed">
-            "BroadPress reduced our publishing time from 3 hours to 15 minutes. We can now focus on what we do best—
-            telling important stories."
+            "BroadPress reduced our website management time from hours to minutes. We can now focus on creating high-quality content and growing our business."
           </blockquote>
           <div className="flex items-center justify-center">
             <div className="w-16 h-16 rounded-full bg-gray-300 mr-4 overflow-hidden">
@@ -28,7 +27,7 @@ export default function TestimonialsPage() {
             </div>
             <div>
               <p className="font-medium text-black">Jacob Benhard</p>
-              <p className="text-gray-600">Editor-in-Chief, Jasper Times Daily</p>
+              <p className="text-gray-600">CEO, Jasper Inc, NewYork</p>
             </div>
           </div>
         </div>
@@ -49,15 +48,15 @@ export default function TestimonialsPage() {
                 </div>
                 <div>
                   <p className="font-medium text-black">Sarah Chen</p>
-                  <p className="text-gray-600 text-sm">Digital Director, Metro News Network</p>
+                  <p className="text-gray-600 text-sm">Digital Director, Tech Solutions Inc.</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-8 border border-gray-200">
               <blockquote className="text-lg text-gray-700 mb-6 leading-relaxed">
-                "Our editorial team was up and running in 24 hours. The interface is intuitive and built for
-                journalists."
+                "Our team was up and running in 24 hours. The interface is intuitive and built for efficiency."
+
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-gray-300 mr-3 overflow-hidden flex-shrink-0">
@@ -69,15 +68,14 @@ export default function TestimonialsPage() {
                 </div>
                 <div>
                   <p className="font-medium text-black">Michael Rodriguez</p>
-                  <p className="text-gray-600 text-sm">Managing Editor, Valley Tribune</p>
+                  <p className="text-gray-600 text-sm">Operations Manager, GreenEnergy Corp.</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-8 border border-gray-200">
               <blockquote className="text-lg text-gray-700 mb-6 leading-relaxed">
-                "The real-time analytics help us understand our audience better and make data-driven editorial
-                decisions."
+                "Real-time analytics help us understand our customers better and make data-driven business decisions.""
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-gray-300 mr-3 overflow-hidden flex-shrink-0">
@@ -85,15 +83,14 @@ export default function TestimonialsPage() {
                 </div>
                 <div>
                   <p className="font-medium text-black">Emily Watson</p>
-                  <p className="text-gray-600 text-sm">Analytics Manager, City Herald</p>
+                  <p className="text-gray-600 text-sm">Marketing Manager, HealthPlus Systems</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-8 border border-gray-200">
               <blockquote className="text-lg text-gray-700 mb-6 leading-relaxed">
-                "Security was our biggest concern. BroadPress's military-grade encryption gives us complete peace of
-                mind."
+                "Security was our biggest concern. BroadPress’s enterprise-grade encryption gives us complete peace of mind."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-gray-300 mr-3 overflow-hidden flex-shrink-0">
@@ -101,15 +98,14 @@ export default function TestimonialsPage() {
                 </div>
                 <div>
                   <p className="font-medium text-black">David Park</p>
-                  <p className="text-gray-600 text-sm">CTO, Regional Media Group</p>
+                  <p className="text-gray-600 text-sm">CTO, FinTech Innovations</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-8 border border-gray-200">
               <blockquote className="text-lg text-gray-700 mb-6 leading-relaxed">
-                "We've increased our publishing speed by 300% while maintaining quality. Our readers get news faster
-                than ever."
+                "We've increased our content publishing speed by 300% while maintaining quality. Our clients get updates faster than ever."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-gray-300 mr-3 overflow-hidden flex-shrink-0">
@@ -117,14 +113,14 @@ export default function TestimonialsPage() {
                 </div>
                 <div>
                   <p className="font-medium text-black">Lisa Thompson</p>
-                  <p className="text-gray-600 text-sm">Publisher, Independent Daily</p>
+                  <p className="text-gray-600 text-sm">Head of Communications, Global Retail Group</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-white p-8 border border-gray-200">
               <blockquote className="text-lg text-gray-700 mb-6 leading-relaxed">
-                "The migration from WordPress was seamless. Zero downtime, zero lost content. Impressive support team."
+                "The migration from WordPress was seamless. Zero downtime, zero lost content, and excellent support throughout."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-gray-300 mr-3 overflow-hidden flex-shrink-0">
@@ -132,7 +128,7 @@ export default function TestimonialsPage() {
                 </div>
                 <div>
                   <p className="font-medium text-black">James Wilson</p>
-                  <p className="text-gray-600 text-sm">Technical Director, News Collective</p>
+                  <p className="text-gray-600 text-sm">IT Director, AgroTech Enterprises</p>
                 </div>
               </div>
             </div>
@@ -143,23 +139,22 @@ export default function TestimonialsPage() {
       {/* Case Study Section */}
       <section className="py-20 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-serif font-light text-black mb-16 text-center">Jasper Times Daily Case Study</h2>
+          <h2 className="text-4xl font-serif font-light text-black mb-16 text-center">Tech Solutions Inc. Case Study</h2>
 
           <div className="space-y-12">
             <div>
               <h3 className="text-2xl font-serif font-medium text-black mb-4">The Challenge</h3>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Jasper Times Daily was managing 8 different news websites manually, spending 3+ hours per story to
-                publish across all platforms. Their editorial team was frustrated with the repetitive work, and breaking
-                news often reached audiences hours later than competitors.
+               Tech Solutions Inc. was managing multiple corporate websites and landing pages manually, spending hours updating content across all platforms. Teams were frustrated with repetitive workflows, and important product updates often reached clients slower than competitors.
+
               </p>
             </div>
 
             <div>
               <h3 className="text-2xl font-serif font-medium text-black mb-4">The Solution</h3>
               <p className="text-lg text-gray-600 leading-relaxed">
-                BroadPress integrated all 8 websites into one unified dashboard. Stories could be published
-                simultaneously across all platforms with customized formatting for each site's audience and design.
+                BroadPress integrated all websites and pages into one unified dashboard. Content could be published simultaneously across multiple sections with customized layouts and formatting for each page.
+
               </p>
             </div>
 
@@ -167,16 +162,16 @@ export default function TestimonialsPage() {
               <h3 className="text-2xl font-serif font-medium text-black mb-4">The Results</h3>
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center">
-                  <div className="text-4xl font-serif font-light text-black mb-2">75%</div>
-                  <p className="text-gray-600">Reduction in publishing time</p>
+                  <div className="text-4xl font-serif font-light text-black mb-2">90%</div>
+                  <p className="text-gray-600">Reduction in website management time</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-serif font-light text-black mb-2">3x</div>
-                  <p className="text-gray-600">Faster breaking news delivery</p>
+                  <div className="text-4xl font-serif font-light text-black mb-2">10x</div>
+                  <p className="text-gray-600">Faster content updates and website optimization</p>
                 </div>
                 <div className="text-center">
                   <div className="text-4xl font-serif font-light text-black mb-2">40%</div>
-                  <p className="text-gray-600">Increase in overall readership</p>
+                  <p className="text-gray-600">Increase in client engagement and site traffic</p>
                 </div>
               </div>
             </div>
@@ -189,7 +184,7 @@ export default function TestimonialsPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-serif font-light text-black mb-8">Join These Success Stories</h2>
           <p className="text-xl text-gray-600 mb-12">
-            Ready to transform your newsroom's publishing workflow like these organizations?
+            Ready to transform your corporate website management and content workflow like these forward-thinking organizations?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

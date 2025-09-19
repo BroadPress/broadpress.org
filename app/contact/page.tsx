@@ -6,7 +6,7 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-serif font-light text-black mb-8 leading-tight">Get in Touch</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready to revolutionize your newsroom's publishing workflow? We're here to help you get started.
+            Move your cluttered, old scripted, non performing, slow loading website to BroadPress. Get free counselling from the industry experts.
           </p>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function ContactPage() {
 
                 <div>
                   <label htmlFor="organization" className="block text-sm font-medium text-gray-700 mb-2">
-                    News Organization
+                    Name of Organization/ Enterprise
                   </label>
                   <input
                     type="text"
@@ -100,7 +100,7 @@ export default function ContactPage() {
                     name="message"
                     rows={6}
                     className="w-full px-4 py-3 border border-gray-300 focus:border-black focus:outline-none transition-colors resize-none"
-                    placeholder="Tell us about your newsroom and how we can help..."
+                    placeholder="Tell us about your organisation/ enterprise and how we can help..."
                     required
                   ></textarea>
                 </div>
@@ -157,44 +157,76 @@ export default function ContactPage() {
 
       {/* FAQ Section */}
       <section className="py-20 px-6 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-serif font-light text-black mb-16 text-center">Frequently Asked Questions</h2>
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-4xl font-serif font-light text-black mb-16 text-center">Frequently Asked Questions</h2>
 
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-xl font-serif font-medium text-black mb-3">How quickly can we get started?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Most newsrooms can be up and running with BroadPress within 48 hours. We provide full onboarding support
-                and training for your team.
-              </p>
-            </div>
+    <div className="space-y-8">
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">How quickly can we get started?</h3>
+        <p className="text-gray-600 leading-relaxed">
+          Most businesses can have BroadPress up and running within 48 hours. We provide full onboarding support and training for your team.
 
-            <div>
-              <h3 className="text-xl font-serif font-medium text-black mb-3">Do you offer a free trial?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Yes, we offer a 14-day free trial with full access to all features. No credit card required to get
-                started.
-              </p>
-            </div>
+        </p>
+      </div>
 
-            <div>
-              <h3 className="text-xl font-serif font-medium text-black mb-3">Can you migrate our existing content?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Absolutely. Our team will help you migrate your existing content from WordPress or other CMS platforms
-                at no additional cost.
-              </p>
-            </div>
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">Do you offer a free trial?</h3>
+        <p className="text-gray-600 leading-relaxed">
+         Yes! BroadPress offers a 14-day free trial with full access to all features. No credit card is required to get started.
 
-            <div>
-              <h3 className="text-xl font-serif font-medium text-black mb-3">What kind of support do you provide?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                We provide 24/7 technical support, dedicated account management, and comprehensive training resources to
-                ensure your success.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">Can you migrate our existing content?</h3>
+        <p className="text-gray-600 leading-relaxed">
+          Absolutely. Our team will help you migrate your existing content from WordPress or other CMS platforms at no additional cost.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">What kind of support do you provide?</h3>
+        <p className="text-gray-600 leading-relaxed">
+          We provide 24/7 technical support, dedicated account management, and comprehensive training resources to ensure your team’s success.
+
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">Can we add more pages later?</h3>
+        <p className="text-gray-600 leading-relaxed">
+          Yes. You can upgrade your plan at any time to accommodate additional pages and sections as your website grows.
+
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">Is API integration supported?</h3>
+        <p className="text-gray-600 leading-relaxed">
+          Yes. BroadPress supports API access for custom integrations with third-party tools, internal systems, or other enterprise applications.
+
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">Can multiple teams collaborate on content?</h3>
+        <p className="text-gray-600 leading-relaxed">
+        Absolutely. BroadPress includes collaborative editing, component-based layouts, and workflow tools to allow multiple teams to work efficiently.
+
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-serif font-medium text-black mb-3">How secure is BroadPress?</h3>
+        <p className="text-gray-600 leading-relaxed">
+          BroadPress offers enterprise-grade security, including global server regions, CDN support, Cloudinary-managed storage, and advanced encryption to protect your content.
+
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
     </div>
   )
 }

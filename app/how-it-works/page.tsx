@@ -10,8 +10,7 @@ export default function HowItWorksPage() {
             How BroadPress Works
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            From story creation to multi-platform publishing, BroadPress streamlines your entire newsroom workflow in
-            three simple steps.
+            From page creation to dynamic website management, BroadPress streamlines your entire workflow in three simple steps.
           </p>
         </div>
       </section>
@@ -25,11 +24,11 @@ export default function HowItWorksPage() {
               <div>
                 <div className="flex items-center mb-6">
                   <span className="text-6xl font-serif font-light text-gray-300 mr-4">01</span>
-                  <h2 className="text-3xl font-serif font-medium text-black">Create Your Story</h2>
+                  <h2 className="text-3xl font-serif font-medium text-black">Create Your Page</h2>
                 </div>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Write, edit, and format your news article using our intuitive editor designed specifically for
-                  journalists. Add images, videos, and multimedia content with ease.
+                  Build, edit, and format your website pages using BroadPress’ intuitive editor. Add images, videos, and other multimedia content effortlessly.
+
                 </p>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-center">
@@ -41,7 +40,7 @@ export default function HowItWorksPage() {
                         d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
                       />
                     </svg>
-                    Rich text editor with newsroom-specific tools
+                    Rich text editor with enterprise-grade tools
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -52,7 +51,7 @@ export default function HowItWorksPage() {
                         d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"
                       />
                     </svg>
-                    Automatic categorization and tagging
+                    Automatic categorization and page suggestions
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -74,7 +73,7 @@ export default function HowItWorksPage() {
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    Built-in fact-checking and source management
+                    Built-in content validation and digital asset management
                   </li>
                 </ul>
               </div>
@@ -117,11 +116,11 @@ export default function HowItWorksPage() {
               <div className="order-1 md:order-2">
                 <div className="flex items-center mb-6">
                   <span className="text-6xl font-serif font-light text-gray-300 mr-4">02</span>
-                  <h2 className="text-3xl font-serif font-medium text-black">Select Your Networks</h2>
+                  <h2 className="text-3xl font-serif font-medium text-black">Select Your Pages & Layouts</h2>
                 </div>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  Choose which of your connected news networks should receive this story. Customize the content for each
-                  platform while maintaining your core message.
+                 Choose which pages or sections of your website should display your content. Customize layouts and components while maintaining consistency across your site.
+
                 </p>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-center">
@@ -133,7 +132,7 @@ export default function HowItWorksPage() {
                         d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
                       />
                     </svg>
-                    Visual network selection interface
+                    Visual layout and page selection interface
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -144,7 +143,7 @@ export default function HowItWorksPage() {
                         d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"
                       />
                     </svg>
-                    Platform-specific content optimization
+                    Page-specific content customization
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,7 +154,7 @@ export default function HowItWorksPage() {
                         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                       />
                     </svg>
-                    Scheduling and timing controls
+                    Scheduling and timing controls for publication
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -183,11 +182,11 @@ export default function HowItWorksPage() {
               <div>
                 <div className="flex items-center mb-6">
                   <span className="text-6xl font-serif font-light text-gray-300 mr-4">03</span>
-                  <h2 className="text-3xl font-serif font-medium text-black">Publish Everywhere</h2>
+                  <h2 className="text-3xl font-serif font-medium text-black">Publish Across Your Website</h2>
                 </div>
                 <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                  With one click, your story goes live across all selected networks simultaneously. Monitor performance,
-                  engagement, and reach from your unified dashboard.
+                  With a single click, your content goes live across all selected pages and sections. Monitor performance and engagement directly from your unified dashboard.
+
                 </p>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-center">
@@ -199,7 +198,7 @@ export default function HowItWorksPage() {
                         d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
-                    Instant multi-platform publishing
+                    Instant page publishing across your site
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -210,7 +209,7 @@ export default function HowItWorksPage() {
                         d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                       />
                     </svg>
-                    Real-time analytics and engagement tracking
+                    Real-time analytics and performance tracking
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -221,7 +220,7 @@ export default function HowItWorksPage() {
                         d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"
                       />
                     </svg>
-                    Automatic social media integration
+                    Integration with enterprise tools and media assets
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -232,7 +231,7 @@ export default function HowItWorksPage() {
                         d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
                       />
                     </svg>
-                    Performance insights and recommendations
+                    Insights and recommendations for content optimization
                   </li>
                 </ul>
               </div>
@@ -270,19 +269,19 @@ export default function HowItWorksPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div>
               <div className="text-4xl font-serif font-light text-black mb-4">75%</div>
-              <p className="text-gray-600">Less time spent on publishing</p>
+              <p className="text-gray-600">Less time spent on website management</p>
             </div>
             <div>
-              <div className="text-4xl font-serif font-light text-black mb-4">3x</div>
-              <p className="text-gray-600">Faster content distribution</p>
+              <div className="text-4xl font-serif font-light text-black mb-4">10x</div>
+              <p className="text-gray-600">Faster content and page updates</p>
             </div>
             <div>
               <div className="text-4xl font-serif font-light text-black mb-4">100%</div>
-              <p className="text-gray-600">Consistent messaging across platforms</p>
+              <p className="text-gray-600">Consistent branding and messaging across all pages</p>
             </div>
           </div>
           <p className="text-lg text-gray-600 mb-8">
-            Jasper Times Daily reduced their publishing time from hours to minutes while reaching 3x more readers.
+            With BroadPress, enterprises can reduce website management time from hours to minutes while delivering content faster and maintaining full consistency across their digital presence.
           </p>
         </div>
       </section>
@@ -290,9 +289,9 @@ export default function HowItWorksPage() {
       {/* CTA Section */}
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-serif font-light text-black mb-8">Ready to Streamline Your Workflow?</h2>
+          <h2 className="text-4xl font-serif font-light text-black mb-8">Ready to Streamline Your Website Management?</h2>
           <p className="text-xl text-gray-600 mb-12">
-            See how BroadPress can transform your newsroom's publishing process.
+            Discover how BroadPress can simplify your content workflow, speed up page updates, and empower your enterprise with dynamic, scalable websites.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

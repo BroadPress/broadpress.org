@@ -8,8 +8,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-serif font-light text-black mb-8 leading-tight">About BroadPress</h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            We're revolutionizing how newsrooms publish and distribute content across multiple platforms, making
-            journalism more efficient and impactful.
+            We’re transforming how enterprises build, manage, and publish dynamic websites, making content management faster, scalable, and more efficient.
           </p>
         </div>
       </section>
@@ -27,12 +26,12 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-serif font-medium text-black">Our Mission</h2>
               </div>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                To empower newsrooms with technology that amplifies their reach while simplifying their workflow. Every
-                story deserves to be heard, and every journalist deserves tools that work as hard as they do.
+                To empower enterprises with technology that simplifies website management, accelerates content delivery, and ensures consistent, high-quality digital presence.
+
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                We believe that great journalism shouldn't be limited by technical barriers or time-consuming publishing
-                processes.
+                We believe that great business content shouldn’t be limited by technical barriers or time-consuming publishing processes.
+
               </p>
             </div>
             <div>
@@ -44,12 +43,12 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-serif font-medium text-black">Our Vision</h2>
               </div>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                A world where newsrooms can focus entirely on what they do best—telling important stories—while
-                technology handles the complexity of multi-platform distribution.
+                A world where enterprises can focus entirely on creating impactful content while technology handles the complexity of website management and dynamic publishing.
+
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                We envision a future where every news organization, regardless of size, has access to enterprise-grade
-                publishing tools.
+                We envision a future where every business, regardless of size, has access to powerful, enterprise-grade content management tools.
+
               </p>
             </div>
           </div>
@@ -75,9 +74,8 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-serif font-medium text-black">The Problem We Saw</h3>
               </div>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Newsrooms were spending more time managing technology than creating content. Journalists were logging
-                into multiple dashboards, copying and pasting the same story across different platforms, and losing
-                precious hours that could be spent on reporting.
+                Enterprises were spending more time managing website technology than creating and sharing content. Teams struggled with multiple dashboards, repetitive updates, and complex workflows, losing valuable time that could be spent on business growth.
+
               </p>
             </div>
 
@@ -91,9 +89,8 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-serif font-medium text-black">Our Solution</h3>
               </div>
               <p className="text-lg text-gray-600 leading-relaxed">
-                BroadPress was born from the simple idea that publishing should be as easy as writing. We built a
-                platform specifically for newsrooms, designed around their workflows, and optimized for the speed and
-                reliability that breaking news demands.
+                BroadPress was created with a simple goal: managing and publishing website content should be as easy as creating it. We built a platform specifically for businesses, with a component-based architecture, pre-structured templates, and optimized performance for dynamic, enterprise-grade websites.
+
               </p>
             </div>
 
@@ -106,9 +103,8 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-serif font-medium text-black">Proven Results</h3>
               </div>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Today, Jasper Times Daily and other forward-thinking news organizations use BroadPress to reach wider
-                audiences while reducing their publishing time by 75%. Our platform handles millions of page views and
-                ensures that important stories reach readers faster than ever before.
+                Today, forward-thinking companies use BroadPress to streamline content management, reduce website update time by 90%, and deliver a faster, more consistent digital experience. BroadPress powers dynamic websites with global reach, ensuring businesses connect with their audiences efficiently and effectively.
+
               </p>
             </div>
           </div>
@@ -133,10 +129,9 @@ export default function AboutPage() {
                   <path d="M10 6h8v4h-8V6z" strokeWidth="1.5" />
                 </svg>
               </div>
-              <h3 className="text-xl font-serif font-medium text-black mb-4">Journalism First</h3>
+              <h3 className="text-xl font-serif font-medium text-black mb-4">Content First</h3>
               <p className="text-gray-600 leading-relaxed">
-                Every feature we build serves the fundamental goal of helping journalists tell better stories and reach
-                more people.
+                Every feature we build serves the fundamental goal of helping businesses create, manage, and share content efficiently.
               </p>
             </div>
 
@@ -151,8 +146,8 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-serif font-medium text-black mb-4">Simplicity</h3>
               <p className="text-gray-600 leading-relaxed">
-                Complex problems deserve elegant solutions. We believe powerful tools should be intuitive and accessible
-                to everyone.
+                Complex workflows deserve elegant solutions. We believe powerful tools should be intuitive, clean, and easy to use for everyone.
+
               </p>
             </div>
 
@@ -165,8 +160,8 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-serif font-medium text-black mb-4">Reliability</h3>
               <p className="text-gray-600 leading-relaxed">
-                News doesn't wait. Our platform is built to handle breaking news, high traffic, and the demanding pace
-                of modern journalism.
+                Business content can’t wait. BroadPress is built to handle high traffic, dynamic updates, and the fast pace of modern digital operations.
+
               </p>
             </div>
           </div>
@@ -176,13 +171,13 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-serif font-light text-black mb-8">Join Our Mission</h2>
-          <p className="text-xl text-gray-600 mb-12">Ready to transform how your newsroom publishes content?</p>
+          <h2 className="text-4xl font-serif font-light text-black mb-8">Join BroadPress</h2>
+          <p className="text-xl text-gray-600 mb-12">Ready to transform how your enterprise manages and publishes content!</p>
           <Link
             href="/contact"
             className="bg-black text-white px-8 py-4 text-lg font-medium hover:bg-gray-800 transition-colors"
           >
-            Get Started Today
+            Get Free Counsultation
           </Link>
         </div>
       </section>
