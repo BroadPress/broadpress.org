@@ -268,7 +268,7 @@ export default function HowItWorksPage() {
           <h2 className="text-4xl font-serif font-light text-black mb-12">The Result</h2>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div>
-              <div className="text-4xl font-serif font-light text-black mb-4">75%</div>
+              <div className="text-4xl font-serif font-light text-black mb-4">90%</div>
               <p className="text-gray-600">Less time spent on website management</p>
             </div>
             <div>
