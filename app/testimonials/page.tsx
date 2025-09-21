@@ -39,8 +39,8 @@ export default function TestimonialsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 border border-gray-200">
               <blockquote className="text-lg text-gray-700 mb-6 leading-relaxed">
-                "The multi-network publishing feature is a game-changer. We publish to 12 different sites with one
-                click."
+                "I had never expected that there is something better than WordPress where entire website is ready on just few
+                clicks."
               </blockquote>
               <div className="flex items-center">
                 <div className="w-12 h-12 rounded-full bg-gray-300 mr-3 overflow-hidden flex-shrink-0">

@@ -70,7 +70,7 @@ export default function PricingPage() {
               <p className="text-gray-600 mb-6">Ideal for Corporates and Enterprises
 $29/month (billed annually $348 → $300) 14% Discount</p>
               <div className="mb-8">
-                <span className="text-4xl font-serif font-light text-black">$99</span>
+                <span className="text-4xl font-serif font-light text-black">$29</span>
                 <span className="text-gray-600">/month</span>
               </div>
               <ul className="space-y-3 text-gray-600 mb-8">
@@ -211,7 +211,7 @@ $49/month (billed annually $588 → $480) 18% Discount</p>
                         d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"
                       />
                     </svg>
-                    Connected Networks
+                    Ready to Bake Pages
                   </td>
                   <td className="py-4 px-6 text-center">15 Pages</td>
                   <td className="py-4 px-6 text-center">50 Pages</td>

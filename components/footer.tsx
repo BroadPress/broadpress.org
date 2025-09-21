@@ -66,7 +66,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-200 mt-8 pt-8 text-center">
-          <p className="text-gray-500 text-sm">© 2025 BroadPress. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© 2025 BroadPress. All Rights Reserved. Built With <a href="https://broadpress.org" target="_blank"> BroadPress</a></p>
         </div>
       </div>
     </footer>
