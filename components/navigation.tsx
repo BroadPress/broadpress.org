@@ -25,7 +25,7 @@ export function Navigation() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <Image
-              src="https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png"
+              src="/logos/broadpress-logo.svg"
               alt="BroadPress Logo"
               width={32}
               height={32}

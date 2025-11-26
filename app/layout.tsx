@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "BroadPress",
     images: [
       {
-        url: "https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png",
+        url: "/logos/broadpress-logo.svg",
         width: 1200,
         height: 630,
         alt: "BroadPress - WordPress Alternative Corporate CMS",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: "BroadPress - BroadPress - WordPress Alternative Corporate CMS",
     description:
       "BroadPress is a powerful WordPress alternative corporate CMS built for modern enterprises",
-    images: ["https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png"],
+    images: ["/logos/broadpress-logo.svg"],
   },
   robots: {
     index: true,
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png",
-    shortcut: "https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png",
-    apple: "https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png",
+    icon: "/logos/broadpress-logo.svg",
+    shortcut: "/logos/broadpress-logo.svg",
+    apple: "/logos/broadpress-logo.svg",
   },
 }
 

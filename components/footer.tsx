@@ -9,7 +9,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <Image
-                src="https://i.ibb.co/pjDbMZ0v/Broad-Press-Logo.png"
+                src="/logos/broadpress-logo.svg"
                 alt="BroadPress Logo"
                 width={24}
                 height={24}
