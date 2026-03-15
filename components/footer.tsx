@@ -25,19 +25,20 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-black mb-4">Product</h4>
             <ul className="space-y-2 text-sm">
+              
               <li>
-                <Link href="/how-it-works" className="text-gray-600 hover:text-black">
-                  How It Works
+                <Link href="/meet" className="text-gray-600 hover:text-black">
+                  Virtual Meetings
                 </Link>
               </li>
               <li>
-                <Link href="/vs-wordpress" className="text-gray-600 hover:text-black">
-                  vs WordPress
+                <Link href="/internship" className="text-gray-600 hover:text-black">
+                  Apply Internship
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="text-gray-600 hover:text-black">
-                  Pricing
+                <Link href="/internship/guidelines" className="text-gray-600 hover:text-black">
+                  Internship Guidelines
                 </Link>
               </li>
             </ul>
@@ -66,7 +67,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-200 mt-8 pt-8 text-center">
-          <p className="text-gray-500 text-sm">© 2025 BroadPress. All Rights Reserved. Built With <a href="https://broadpress.org" target="_blank"> BroadPress</a></p>
+          <p className="text-gray-500 text-sm">© 2007-2026 BroadPress. All Rights Reserved. Built with : <a href="https://broadpress.org" target="_blank"> BroadPress</a></p>
         </div>
       </div>
     </footer>

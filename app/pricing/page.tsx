@@ -68,7 +68,7 @@ export default function PricingPage() {
               </div>
               <h3 className="text-2xl font-serif font-medium text-black mb-4">Professional</h3>
               <p className="text-gray-600 mb-6">Ideal for Corporates and Enterprises
-$29/month (billed annually $348 → $300) 14% Discount</p>
+              $29/month (billed annually $348 → $300) 14% Discount</p>
               <div className="mb-8">
                 <span className="text-4xl font-serif font-light text-black">$29</span>
                 <span className="text-gray-600">/month</span>
@@ -124,9 +124,10 @@ $29/month (billed annually $348 → $300) 14% Discount</p>
             <div className="bg-white p-8 border border-gray-300">
               <h3 className="text-2xl font-serif font-medium text-black mb-4">Enterprise</h3>
               <p className="text-gray-600 mb-6">For large enterprises and multi-site corporations
-$49/month (billed annually $588 → $480) 18% Discount</p>
+              $49/month (billed annually $588 → $480) 18% Discount</p>
               <div className="mb-8">
-                <span className="text-4xl font-serif font-light text-black">Custom</span>
+                <span className="text-4xl font-serif font-light text-black">$49</span>
+                <span className="text-gray-600">/month</span>
               </div>
               <ul className="space-y-3 text-gray-600 mb-8">
                 <li className="flex items-start">
@@ -176,9 +177,9 @@ $49/month (billed annually $588 → $480) 18% Discount</p>
               </ul>
               <Link
                 href="/contact"
-                className="block w-full text-center border border-gray-300 text-black px-6 py-3 font-medium hover:border-black transition-colors"
+                className="block w-full text-center bg-black text-white px-6 py-3 font-medium hover:bg-gray-800 transition-colors"
               >
-                Contact Sales
+                Start Free Trial
               </Link>
             </div>
           </div>
