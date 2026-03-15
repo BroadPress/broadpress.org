@@ -56,10 +56,10 @@ export default function MeetClient() {
   } = {
     "Virtual Meetings - Pacific Time (USA) (Buffer Time : 15 Minutes)": [
       { time: "02:15 – 05:15", title: "Internship Slot 1 - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
-      { time: "06:15 – 09:15", title: "Internship Slot 4 - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
-      { time: "11:15 – 14:15", title: "Internship Slot 5 - (Mon-Fri)", link: "https://meet.google.com/vsb-buwu-pub" },
-      { time: "15:15 – 18:15", title: "Internship Slot 6 - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
-      { time: "19:15 – 22:15", title: "Internship Slot 7 - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
+      { time: "06:15 – 09:15", title: "Internship Slot 2 - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
+      { time: "11:15 – 14:15", title: "Internship Slot 3 - (Mon-Fri)", link: "https://meet.google.com/vsb-buwu-pub" },
+      { time: "15:15 – 18:15", title: "Internship Slot 4 - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
+      { time: "19:15 – 22:15", title: "Internship Slot 5 - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
       { time: "06:15 – 07:00", title: "#TechFriday - (Fri)", link: "https://b.broadpress.org/meet" },
       { time: "06:15 – 09:15", title: "BroadPress Interview - (Mon-Fri)", link: "https://b.broadpress.org/meet" },
       { time: "07:15 – 08:00", title: "Community Meeting - (Fri)", link: "https://b.broadpress.org/meet" },
