@@ -28,7 +28,7 @@ export function Footer() {
               
               <li>
                 <Link href="/meet" className="text-gray-600 hover:text-black">
-                  Virtual Meetings
+                  Virtual Meeting
                 </Link>
               </li>
               <li>
