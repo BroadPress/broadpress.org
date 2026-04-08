@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Ribbon from "@/components/Ribbon";
 import Image from "next/image";
 import Link from "next/link";
 
