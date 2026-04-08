@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -50,7 +49,7 @@ export default function MeetClient() {
     [day: string]: { time: string; title: string; link: string }[];
   } = {
     "Virtual Meetings - TimeZone GMT+3 (Buffer Time : 15 Minutes)": [
-      { time: "08:15 – 02:15 - Host : CTO", title: "Meeting with CTO - ( Sun - Thu )", link: "https://cal.com/pracas" },
+      { time: "08:15 – 11:15 - Host : CTO", title: "Meeting with CTO - ( Sun - Thu )", link: "https://cal.com/pracas" },
       { time: "08:15 – 11:15 - Host : BroadPress", title: "Internship Slot 1 - (Sun-Thu)", link: "https://meet.google.com/kyb-bera-guu" },
       { time: "12:15 – 15:15 - Host : BroadPress", title: "Internship Slot 2 - (Sun-Thu)", link: "https://meet.google.com/kyb-bera-guu" },
       { time: "12:15 – 15:15 - Host : BiratInfo", title: "Digital Journalism Training - (Mon)", link: "https://meet.google.com/kyb-bera-guu" },
@@ -64,7 +63,7 @@ export default function MeetClient() {
 
   return (
     <>
-      <Ribbon name="Meet" des="" />
+      
 
       <section className="max-w-[1180px] mx-auto px-6 lg:px-0 mb-[45px] mt-[45px] w-full flex flex-col gap-6">
         {Object.entries(fullSchedule).map(([day, sessions]) => (
